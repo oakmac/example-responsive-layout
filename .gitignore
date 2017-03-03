@@ -1,1 +1,3 @@
-css/*.css
+# Ignore SCSS-related output
+css
+.sass-cache
