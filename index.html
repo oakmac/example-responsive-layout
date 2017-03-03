@@ -9,30 +9,59 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+<div class="app-wrapper">
+
     <header>
-        <h1>NYTimes.com</h1>
-        <h4>All the news that's fit to print.</h4>
+        <div class="btn-wrapper">
+            <button class="mobile-menu-btn">Menu</button>
+        </div>
+        <div class="header-txt">
+            <h1>NYTimes.com</h1>
+            <h4>All the news that's fit to print.</h4>
+        </div>
     </header>
 
-    <section class="jumbo-section">
-        <h2>Trump Eats a Russian Cheeto</h2>
-        <p>Duis consequat vitae purus vel laoreet. Duis mi elit, semper at interdum at, rhoncus fermentum ligula.
-            In tristique lorem vel augue finibus molestie. Sed odio orci, aliquam nec lorem maximus, pulvinar viverra erat. <a href="#">Read more</a></p>
-    </section>
+    <div class="body-wrapper">
 
-    <nav class="left-nav">
-        <ul>
-            <li><a href="#">Politics</a></li>
-            <li><a href="#">Sports</a></li>
-            <li><a href="#" class="crossword">Crossword</a></li>
-            <li><a href="#">Movies</a></li>
-            <li><a href="#">Finance</a></li>
-        </ul>
-    </nav>
+        <nav class="left-nav">
+            <ul>
+                <li><a href="#">Politics</a></li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#" class="crossword">Crossword</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">Finance</a></li>
+            </ul>
+        </nav>
 
-    <section class="other-stories">
-        <p>TODO: other stories will go in this section</p>
-    </section>
+        <div class="stories-wrapper">
+
+            <section class="jumbo-section">
+                <h2>Trump Eats a Russian Cheeto</h2>
+                <p>Duis consequat vitae purus vel laoreet. Duis mi elit, semper at interdum at, rhoncus fermentum ligula.
+                    In tristique lorem vel augue finibus molestie. Sed odio orci, aliquam nec lorem maximus, pulvinar viverra erat. <a href="#">Read more</a></p>
+            </section>
+
+            <div class="inside-stories-wrapper">
+
+                <section class="other-stories st1">
+                    <p>stories 1</p>
+                </section>
+
+                <section class="other-stories st2">
+                    <p>stories 2</p>
+                </section>
+
+                <section class="other-stories st3">
+                    <p>stories 3</p>
+                </section>
+
+                <section class="other-stories st4">
+                    <p>stories 4</p>
+                </section>
+
+            </div><!-- end .inside-stories-wrapper -->
+        </div><!-- end .stories-wrapper -->
+    </div><!-- end .body-wrapper -->
 
     <footer>
         <ul>
@@ -47,5 +76,7 @@
             <li>All rights reserved.</li>
         </ul>
     </footer>
+
+</div><!-- end .app-wrapper -->
 </body>
 </html>
