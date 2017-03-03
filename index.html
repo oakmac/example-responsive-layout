@@ -1,36 +1,51 @@
 <!doctype html>
-<html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Example Responsive NYTimes.com</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <h1>NYTimes.com</h1>
+        <h4>All the news that's fit to print.</h4>
+    </header>
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
+    <section class="jumbo-section">
+        <h2>Trump Eats a Russian Cheeto</h2>
+        <p>Duis consequat vitae purus vel laoreet. Duis mi elit, semper at interdum at, rhoncus fermentum ligula.
+            In tristique lorem vel augue finibus molestie. Sed odio orci, aliquam nec lorem maximus, pulvinar viverra erat. <a href="#">Read more</a></p>
+    </section>
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
-    <body>
-        <!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
+    <nav class="left-nav">
+        <ul>
+            <li><a href="#">Politics</a></li>
+            <li><a href="#">Sports</a></li>
+            <li><a href="#" class="crossword">Crossword</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">Finance</a></li>
+        </ul>
+    </nav>
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
-        <script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js" integrity="{{JQUERY_SRI_HASH}}" crossorigin="anonymous"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+    <section class="other-stories">
+        <p>TODO: other stories will go in this section</p>
+    </section>
 
-        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-        <script>
-            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
-            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
-        </script>
-        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
-    </body>
+    <footer>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Submit a story</a></li>
+            <li><a href="#">Subcribe</a></li>
+        </ul>
+        <ul>
+            <li>Copyright &copy; 2017 NYTimes.com</li>
+            <li>All rights reserved.</li>
+        </ul>
+    </footer>
+</body>
 </html>
